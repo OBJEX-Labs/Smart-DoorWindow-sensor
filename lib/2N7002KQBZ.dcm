@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002KQBZ
+D N-Channel 60 V 720mA (Ta) 420mW (Ta), 4.2W (Tc) Surface Mount, Wettable Flank DFN1110D-3
+K
+F https://assets.nexperia.com/documents/data-sheet/2N7002KQB.pdf
+$ENDCMP
+#
+#End Doc Library
