@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MDSM-4R-12-18
+D LITTELFUSE - MDSM-4R-12-18 - REED SW, SPST-NO, 0.5A, 200VDC, SMD
+K
+F https://media.digikey.com/pdf/DataSheets/HamlinPDFs/MDSM-4R.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-C3-MINI-1-N4")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/ESP32-C3-MINI-1-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "MDSM-4R-12-18")(type "Legacy")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/MDSM-4R-12-18.lib")(options "")(descr ""))
+  (lib (name "Ablic_S-5701")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/Ablic_S-5701.kicad_sym")(options "")(descr ""))
+  (lib (name "NTNUS3171PZT5G")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/NTNUS3171PZT5G.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G86DBVR")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/SN74LVC1G86DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "BC857B_RF")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/BC857B_RF.kicad_sym")(options "")(descr ""))
+)

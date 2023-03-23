@@ -1,0 +1,259 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NTNUS3171PZT5G" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at -1.27 1.27 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "NTNUS3171PZT5G" (id 1) (at -1.27 -3.81 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ONSC-SOT-1123-3-524AA_V" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "CONFIGURATION" "Single" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COSS_TYP_(PF)" "3.4" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VGS_MAX_(V)" "8" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "CHANNEL_POLARITY" "P Channel" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEETVERSION" "Rev. 1" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MOUNTING_TECHNOLOGY" "Surface Mount" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGEVERSION" "Rev. C, 11/2011" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "V(BR)DSS_MIN_(V)" "20" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "On Semiconductor" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COMPONENTLINK3DESCRIPTION" "Package Specification" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COMPONENTLINK3URL" "http://www.onsemi.cn/pub_link/Collateral/524AA.PDF" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "CISS_TYP_(PF)" "13" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGEDESCRIPTION" "3-Pin Small Outline Transistor, Body 0.8 x 0.6 mm, Pitch 0.375 mm" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VGS(TH)_MAX_(V)" "1" (id 17) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "ID_MAX_(A)" "0.2" (id 18) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKING" "Tape and Reel" (id 19) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COMPONENTLINK1URL" "http://www.onsemi.com/" (id 20) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTNUMBER" "NTNUS3171PZT5G" (id 21) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGEREFERENCE" "SOT-1123-3-524AA" (id 22) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "ROHS" "Pb-Free" (id 23) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "CRSS_TYP_(PF)" "1.6" (id 24) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COMPONENTLINK2URL" "http://www.onsemi.cn/pub_link/Collateral/NTNUS3171PZ-D.PDF" (id 25) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COMPONENTLINK2DESCRIPTION" "Datasheet" (id 26) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE_TYPE" "SOT-1123-3" (id 27) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COMPONENTLINK1DESCRIPTION" "Manufacturer URL" (id 28) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "NTNUS3171PZT5G_0_0"
+      (polyline
+        (pts (xy 1.27 -2.54) (xy 1.27 -3.048)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -5.588) (xy 1.27 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -3.81) (xy 1.27 -4.318)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -3.048) (xy 2.032 -2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -3.048) (xy 0.762 -3.048)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 -3.048) (xy 0.508 -3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -2.54) (xy 6.096 -2.032)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 6.096 -2.032) (xy 6.096 -3.048)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 6.096 -3.048) (xy 7.62 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -5.588) (xy 7.62 -5.588)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 -4.826) (xy 0.508 -4.572)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -4.826) (xy 0.762 -4.064)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 -4.064) (xy 1.778 -4.064)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -4.064) (xy 1.27 -4.826)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -3.048) (xy 0.762 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 -3.81) (xy 1.778 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -3.81) (xy 1.27 -3.048)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 -4.826) (xy 1.778 -4.826)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.032 -2.54) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.556 -2.54) (xy 4.572 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 -4.826) (xy 2.032 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.922 -3.048) (xy 9.398 -3.048)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 -3.048) (xy 10.922 -1.778)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.922 -1.778) (xy 9.398 -1.778)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 9.398 -1.778) (xy 10.16 -3.048)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 -5.08) (xy 10.16 -3.048)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 0.0) (xy 10.16 -1.778)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -5.08) (xy 10.16 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 0.0) (xy 10.16 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -0.762) (xy 7.62 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -4.826) (xy 5.08 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -3.048) (xy 5.08 -2.032)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -0.254) (xy 5.08 -1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.572 -0.254) (xy 4.572 -4.826)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -2.54) (xy 7.62 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -4.318) (xy 5.08 -4.318)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -2.54) (xy 5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -0.762) (xy 5.08 -0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.556 -2.54) (xy 3.302 -2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.302 -2.794) (xy 3.048 -2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.048 -2.286) (xy 2.794 -2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.794 -2.794) (xy 2.54 -2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.286) (xy 2.286 -2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.286 -2.794) (xy 2.032 -2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.032 -2.286) (xy 2.032 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 0.0) (xy 7.62 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -5.08) (xy 7.62 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 7.62 5.08 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
