@@ -330,7 +330,7 @@
     (uuid a3a1b44f-7719-47e2-92f5-aaeba659de32)
   )
 
-  (image (at 263.2456 172.6692) (scale 0.510674)
+  (image (at 261.9756 173.9392) (scale 0.510674)
     (uuid 065adca9-eab7-4896-b115-87cd84b0761e)
     (data
       iVBORw0KGgoAAAANSUhEUgAAA+gAAAEsCAIAAADfJw44AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -889,7 +889,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 92732d3f-bc3d-4824-8d12-1356e1adb506)
-    (property "Sheetname" "Power Latch - Transient signal detector" (at 66.675 62.1534 0)
+    (property "Sheetname" "Power Latch - Rising & falling edge detector " (at 66.675 62.1534 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "PowerLatch.kicad_sch" (at 66.675 95.8346 0)

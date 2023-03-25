@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DMG3415UFY4Q-7
+#/665648/365705/2.50/3/4/MOSFET (P-Channel)
+DEF DMG3415UFY4Q-7 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "DMG3415UFY4Q-7" 450 50 50 H V L CNN
+F2 "DMG3415UFY47" 450 -50 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMG3415UFY4Q.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET P-Ch -16V Enh FET 8Vgss -12A 0.65W" 450 -250 50 H I L CNN "Description"
+F5 "" 450 -350 50 H I L CNN "Height"
+F6 "621-DMG3415UFY4Q-7" 450 -450 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG3415UFY4Q-7?qs=CfuTe0PnivoF8aopa2vWtw%3D%3D" 450 -550 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "DMG3415UFY4Q-7" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

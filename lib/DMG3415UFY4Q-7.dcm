@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMG3415UFY4Q-7
+D MOSFET P-Ch -16V Enh FET 8Vgss -12A 0.65W
+K
+F https://www.diodes.com/assets/Datasheets/DMG3415UFY4Q.pdf
+$ENDCMP
+#
+#End Doc Library
