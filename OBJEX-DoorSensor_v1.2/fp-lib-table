@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lib")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib")(options "")(descr ""))
+  (lib (name "Ablic")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/Ablic.pretty")(options "")(descr ""))
+)

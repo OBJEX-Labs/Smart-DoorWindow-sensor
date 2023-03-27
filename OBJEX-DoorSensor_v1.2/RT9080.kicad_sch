@@ -891,7 +891,7 @@
     (property "Value" "RT9080-33GJ5" (at 143.129 94.234 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KicadLibrary:TSOT-23" (at 142.875 76.835 0)
+    (property "Footprint" "lib:TSOT-23" (at 142.875 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 142.875 76.835 0)

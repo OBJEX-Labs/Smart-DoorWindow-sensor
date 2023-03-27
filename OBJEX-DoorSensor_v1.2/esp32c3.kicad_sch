@@ -2217,7 +2217,7 @@
     (property "Value" "ESP32-C3-MINI-1-N4" (at 153.67 77.724 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "XCVR_ESP32-C3-MINI-1-N4" (at 153.67 96.52 0)
+    (property "Footprint" "lib:XCVR_ESP32-C3-MINI-1-N4" (at 153.67 96.52 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 153.67 96.52 0)
