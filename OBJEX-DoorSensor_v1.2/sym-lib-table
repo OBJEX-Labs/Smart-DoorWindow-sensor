@@ -8,4 +8,5 @@
   (lib (name "BC857B_RF")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/BC857B_RF.kicad_sym")(options "")(descr ""))
   (lib (name "2N7002KQBZ")(type "Legacy")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/2N7002KQBZ.lib")(options "")(descr ""))
   (lib (name "DMG3415UFY4Q-7")(type "Legacy")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/DMG3415UFY4Q-7.lib")(options "")(descr ""))
+  (lib (name "BatteryTerminal")(type "KiCad")(uri "E:/GithubRepository/OBJEX_DoorSensor/lib/BatteryTerminal.kicad_sym")(options "")(descr ""))
 )
