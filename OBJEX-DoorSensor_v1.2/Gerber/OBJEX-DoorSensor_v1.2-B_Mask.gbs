@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.1*%
-%TF.CreationDate,2023-04-06T09:57:02+02:00*%
+%TF.CreationDate,2023-04-07T09:45:08+02:00*%
 %TF.ProjectId,OBJEX-DoorSensor_v1.2,4f424a45-582d-4446-9f6f-7253656e736f,1.2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.1) date 2023-04-06 09:57:02*
+G04 Created by KiCad (PCBNEW 7.0.1) date 2023-04-07 09:45:08*
 %MOMM*%
 %LPD*%
 G01*
