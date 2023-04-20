@@ -1049,6 +1049,11 @@
     (effects (font (size 4 4) (thickness 0.6) bold) (justify left bottom))
     (uuid 11868a3f-e401-4576-9b28-370762554b72)
   )
+  (text "Copyright CERN 2020.\nThis source describes Open Hardware and is licensed under the CERN-OHLW v2\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\nSource location: https://www.ohwr.org/project/wr-switch-hw\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the White Rabbit switch or other product you make using\nthis documentation."
+    (at 16.51 195.58 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 9cf60eff-4815-4dfe-bf03-ee3a4fd6a748)
+  )
 
   (hierarchical_label "SDA" (shape bidirectional) (at 248.3358 97.155 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify left))

@@ -869,11 +869,6 @@
     )
   )
 
-  (text "Copyright CERN 2020.\nThis source describes Open Hardware and is licensed under the CERN-OHLW v2\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\nSource location: https://www.ohwr.org/project/wr-switch-hw\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the White Rabbit switch or other product you make using\nthis documentation."
-    (at 13.6652 194.9196 0)
-    (effects (font (size 1.2 1.2)) (justify left bottom))
-    (uuid 0606a822-b8c3-4d5e-be20-420399e49405)
-  )
   (text "5226\n" (at 29.845 67.31 90)
     (effects (font (size 1.27 1.27) bold italic) (justify left bottom))
     (uuid 2b95b742-dc1f-4f49-9d57-bb2e2e2c749b)
@@ -886,7 +881,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5bc9a112-d317-41c0-9d8d-d8f2902c7e05)
   )
-  (text "Terminal\nBattery x2 AAA" (at 43.18 59.69 0)
+  (text "Copyright CERN 2020.\nThis source describes Open Hardware and is licensed under the CERN-OHLW v2\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\nSource location: https://www.ohwr.org/project/wr-switch-hw\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the White Rabbit switch or other product you make using\nthis documentation."
+    (at 15.24 195.58 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 5e9b68c4-af6b-448f-9063-529f9e5e8a80)
+  )
+  (text "Terminal\nBattery x2 AAA" (at 35.56 59.69 0)
     (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
     (uuid 7acb7b44-d022-4b5a-994d-6671c11b26cd)
   )
