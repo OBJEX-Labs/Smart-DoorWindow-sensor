@@ -776,7 +776,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp c9a6de2d-db5c-4509-ae96-e1001b89e8c1))
     (pad "2" smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "Net-(D2-A)") (pinfunction "A") (pintype "passive") (tstamp d7ae7923-000e-445b-93e0-89330d485d84))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2326,7 +2326,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 87bb1e68-5476-43b5-a068-eb2ee3f55db1))
     (pad "2" smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "Net-(D3-A)") (pinfunction "A") (pintype "passive") (tstamp b974eb08-ba6c-4538-bfc9-b31e643df894))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2638,6 +2638,11 @@
           (xy 138.4 75.2)
         )
       )
+    )
+    (model "E:/GithubRepository/OBJEX_DoorSensor/lib/ESP32-C3-MINI-1-N4.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3045,6 +3050,11 @@
       (net 34 "unconnected-(S2-COM_2-Pad3)") (pinfunction "COM_2") (pintype "passive+no_connect") (tstamp 65d3ffc9-0a84-40ec-b190-a0519ad13b29))
     (pad "4" smd rect (at -2.8 0.85 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "NO_2") (pintype "passive") (tstamp b8e6750e-791a-4126-82e4-dcc2ece662dd))
+    (model "E:/GithubRepository/OBJEX_DoorSensor/lib/436331045822 (rev1).stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "kibuzzard-64258E23" (layer "F.Cu")
@@ -3376,7 +3386,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp c3865fab-f36a-46a5-8530-26d17562e38d))
     (pad "2" smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "Net-(D1-A)") (pinfunction "A") (pintype "passive") (tstamp 8a22e178-4ff9-41ae-af05-74ec1303eb1f))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
