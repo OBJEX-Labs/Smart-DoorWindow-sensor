@@ -1,1 +1,1 @@
-# OBJEX_DoorSensor
+# Smart Door/Window sensor
