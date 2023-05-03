@@ -3531,7 +3531,7 @@
     (property "Reference" "R9" (at 105.41 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1M" (at 105.41 104.775 0)
+    (property "Value" "10K" (at 105.41 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 101.092 102.87 90)
