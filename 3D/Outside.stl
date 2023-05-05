@@ -6705,14 +6705,14 @@ solid ASCII
       vertex   -3.190181e+00 -1.961571e+00 -1.100000e+01
     endloop
   endfacet
-  facet normal -1.347645e-01 -9.908777e-01 -5.029007e-17
+  facet normal -1.347645e-01 -9.908777e-01 0.000000e+00
     outer loop
       vertex   -3.190181e+00 -1.961571e+00 -1.100000e+01
       vertex   -2.947869e+00 -1.994526e+00 4.237356e+00
       vertex   -3.190181e+00 -1.961571e+00 -2.250000e+00
     endloop
   endfacet
-  facet normal -2.902847e-01 -9.569403e-01 -4.856764e-17
+  facet normal -2.902847e-01 -9.569403e-01 0.000000e+00
     outer loop
       vertex   -3.190181e+00 -1.961571e+00 -1.100000e+01
       vertex   -3.190181e+00 -1.961571e+00 -2.250000e+00
@@ -7076,14 +7076,14 @@ solid ASCII
       vertex   -3.190181e+00 5.833857e+01 -1.100000e+01
     endloop
   endfacet
-  facet normal -2.902847e-01 9.569403e-01 1.473283e-17
+  facet normal -2.902847e-01 9.569403e-01 0.000000e+00
     outer loop
       vertex   -3.190181e+00 5.833857e+01 -1.100000e+01
       vertex   -3.565367e+00 5.822476e+01 -2.250000e+00
       vertex   -3.190181e+00 5.833857e+01 -2.250000e+00
     endloop
   endfacet
-  facet normal -9.801714e-02 9.951847e-01 4.974669e-18
+  facet normal -9.801714e-02 9.951847e-01 0.000000e+00
     outer loop
       vertex   -3.190181e+00 5.833857e+01 -1.100000e+01
       vertex   -3.190181e+00 5.833857e+01 -2.250000e+00
@@ -7993,14 +7993,14 @@ solid ASCII
       vertex   2.359018e+01 -1.961571e+00 -1.100000e+01
     endloop
   endfacet
-  facet normal 2.902847e-01 -9.569403e-01 -4.856764e-17
+  facet normal 2.902847e-01 -9.569403e-01 -7.285146e-17
     outer loop
       vertex   2.359018e+01 -1.961571e+00 -1.100000e+01
       vertex   2.396537e+01 -1.847759e+00 -2.250000e+00
       vertex   2.359018e+01 -1.961571e+00 -2.250000e+00
     endloop
   endfacet
-  facet normal 9.801714e-02 -9.951847e-01 -5.050866e-17
+  facet normal 9.801714e-02 -9.951847e-01 -7.576299e-17
     outer loop
       vertex   2.359018e+01 -1.961571e+00 -1.100000e+01
       vertex   2.359018e+01 -1.961571e+00 -2.250000e+00
