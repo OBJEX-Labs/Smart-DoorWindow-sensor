@@ -3,6 +3,18 @@
 # Smart Door/Window sensor
 The focus of this project is to prove how it is possible to drastically reduce the power consumption(in deep sleep/standby) of battery-powered smart devices by developing a customized power latch. Better design of smart devices would ensure a longer product life cycle.
 
+### Power consumption - Reed switch version
+The consumption in deep sleep(POWER LATCH) is the same whether the magnet near the sensor or not.
+
+![image](https://raw.githubusercontent.com/salvatoreraccardi/Smart-DoorWindow-sensor/main/Simulations%20%26%20Tests/deepsleep.png?token=GHSAT0AAAAAAB5QFLJYYOXTCHCXNX4MD6SWZCWBX7Q)
+
+...in the coming days add more screenshots...
+
+### Power consumption -  MAGNETIC SENSOR IC(S-5701) version
+deepsleep: 300nA
+
+...in the coming days add more screenshots...
+
 ## Power consumption
 
 ### Measurement range of PPK2
