@@ -1,7 +1,19 @@
 ***DOC TO BE COMPLETED!***
 
+The documentation is not completed is will be edited in the coming days. Thanks!
+
+Todo:
+- [ ] Demo firmware for AWS IoT Core
+- [ ] Demo firmware for Tuya
+- [ ] Measure the power consumption with oscilloscope + shunt resistor?
+- [ ] Fix XOR footprint
+- [ ] Fix reset button
+- [ ] Fix battery socket pads - invert polarity
+
 # Smart Door/Window sensor
 The focus of this project is to prove how it is possible to drastically reduce the power consumption(in deep sleep/standby) of battery-powered smart devices by developing a customized power latch. Better design of smart devices would ensure a longer product life cycle.
+
+![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/docs/pcb.JPG)
 
 ## Power consumption
 
@@ -20,4 +32,12 @@ deepsleep: 300nA
 
 ...in the coming days add more screenshots...
 
+## 3D Case
 
+![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/TOP.JPG)
+
+![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/Inside.JPG)
+
+![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/BatterySocket.JPG)
+
+![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/Magnet.JPG)
