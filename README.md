@@ -1,4 +1,5 @@
 ***DOC TO BE COMPLETED!***
+
 The documentation is not completed is will be edited in the coming days. Thanks!
 
 # Smart Door/Window sensor
