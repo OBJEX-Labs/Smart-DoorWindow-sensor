@@ -6,7 +6,7 @@ The focus of this project is to prove how it is possible to drastically reduce t
 ### Power consumption - Reed switch version
 The consumption in deep sleep(POWER LATCH) is the same whether the magnet near the sensor or not.
 
-![image](https://raw.githubusercontent.com/salvatoreraccardi/Smart-DoorWindow-sensor/main/Simulations%20%26%20Tests/deepsleep.png?token=GHSAT0AAAAAAB5QFLJYYOXTCHCXNX4MD6SWZCWBX7Q)
+![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/Simulations%20%26%20Tests/deepsleep.png)
 
 ...in the coming days add more screenshots...
 
