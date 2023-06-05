@@ -5,6 +5,7 @@ The documentation is not completed is will be edited in the coming days. Thanks!
 Todo:
 - [ ] Demo firmware for AWS IoT Core
 - [ ] Demo firmware for Tuya
+- [ ] Test OTA
 - [ ] Measure the power consumption with oscilloscope + shunt resistor?
 - [ ] Fix XOR footprint
 - [ ] Fix reset button
