@@ -6,12 +6,11 @@ Todo:
 - [ ] Demo firmware for AWS IoT Core
 - [ ] Demo firmware for Tuya
 - [ ] Test OTA
-- [ ] Measure the power consumption with oscilloscope + shunt resistor?
+
+Todo next version (v1.3):
 - [ ] Fix XOR footprint
 - [ ] Fix reset button
 - [ ] Fix battery socket pads - invert polarity
-
-New features:
 - [ ] custom version with SIM card for IIOT
 
 # Smart Door/Window sensor
