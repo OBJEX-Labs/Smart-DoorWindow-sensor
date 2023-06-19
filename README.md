@@ -12,6 +12,7 @@ Todo next version (v1.3):
 - [ ] Fix reset button
 - [ ] Fix battery socket pads - invert polarity
 - [ ] custom version with SIM card for IIOT
+- [ ] Smart reset IC
 
 # Smart Door/Window sensor
 The focus of this project is to prove how it is possible to drastically reduce the power consumption(in deep sleep/standby) of battery-powered smart devices by developing a customized power latch. Better design of smart devices would ensure a longer product life cycle.
