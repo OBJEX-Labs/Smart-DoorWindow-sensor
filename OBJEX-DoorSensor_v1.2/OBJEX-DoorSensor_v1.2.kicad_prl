@@ -66,7 +66,7 @@
       40
     ],
     "visible_layers": "ffcffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "OBJEX-DoorSensor_v1.2.kicad_prl",
