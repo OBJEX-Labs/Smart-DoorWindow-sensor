@@ -1,19 +1,3 @@
-***DOC TO BE COMPLETED!***
-
-The documentation is not completed is will be edited in the coming days. Thanks!
-
-Todo:
-- [ ] Demo firmware for AWS IoT Core
-- [ ] Demo firmware for Tuya
-- [ ] Test OTA
-
-Todo next version (v1.3):
-- [ ] Fix XOR footprint
-- [ ] Fix reset button
-- [ ] Fix battery socket pads - invert polarity
-- [ ] custom version with SIM card for IIOT
-- [ ] Smart reset IC
-
 # Smart Door/Window sensor
 The focus of this project is to prove how it is possible to drastically reduce the power consumption(in deep sleep/standby) of battery-powered smart devices by developing a customized power latch. Better design of smart devices would ensure a longer product life cycle.
 
@@ -29,12 +13,8 @@ The consumption in deep sleep(POWER LATCH) is the same whether the magnet near t
 
 ![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/Simulations%20%26%20Tests/deepsleep.png)
 
-...in the coming days add more screenshots...
-
 ### 2. MAGNETIC SENSOR IC(S-5701) version
 deepsleep: 300nA
-
-...in the coming days add more screenshots...
 
 ## 3D Case
 
