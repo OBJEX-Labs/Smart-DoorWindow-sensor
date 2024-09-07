@@ -1,7 +1,7 @@
 # Smart Door/Window sensor
 The focus of this project is to prove how it is possible to drastically reduce the power consumption(in deep sleep/standby) of battery-powered smart devices by developing a customized power latch. Better design of smart devices would ensure a longer product life cycle.
 
-![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/docs/pcb.JPG)
+![image](https://github.com/OBJEX-Labs/Smart-DoorWindow-sensor/blob/main/ESP32-C3%20Version/docs/pcb.JPG)
 
 ## Power consumption
 
