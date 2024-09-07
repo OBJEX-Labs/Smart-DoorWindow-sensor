@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ZMOD4410AI1R")(type "Legacy")(uri "${KIPRJMOD}/lib/ZMOD4410AI1R.lib")(options "")(descr ""))
+  (lib (name "HS3001")(type "KiCad")(uri "${KIPRJMOD}/lib/HS3001.kicad_sym")(options "")(descr ""))
+  (lib (name "ELPMs")(type "KiCad")(uri "${KIPRJMOD}/lib/ELPMs.kicad_sym")(options "")(descr ""))
+  (lib (name "436331045822")(type "Legacy")(uri "${KIPRJMOD}/lib/436331045822.lib")(options "")(descr ""))
+  (lib (name "RT9080-33GJ5")(type "Legacy")(uri "${KIPRJMOD}/lib/RT9080-33GJ5.lib")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "SM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/SM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "MDSM-4R-12-18")(type "Legacy")(uri "${KIPRJMOD}/lib/MDSM-4R-12-18.lib")(options "")(descr ""))
+)

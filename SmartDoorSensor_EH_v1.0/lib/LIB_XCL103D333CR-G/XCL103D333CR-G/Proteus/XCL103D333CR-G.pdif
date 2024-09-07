@@ -1,0 +1,148 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "XCL103D333CR-G"
+   (description "Switching Voltage Regulators Inductor Built-in Step-Up micro DC/DC Converter")
+   (family "ANA")
+   (package "XCL102D283CRG")
+   (attribute "Datasheet Link" "https://www.torexsemi.com/file/xcl102/XCL102-103.pdf")
+   (attribute "Geometry.Height" "1.04mm")
+   (attribute "Mouser Part Number" "865-XCL103D333CR-G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XCL103D333CR-G?qs=gt1LBUVyoHmBKFSBp3Uk6w%3D%3D")
+   (attribute "Manufacturer_Name" "Torex")
+   (attribute "Manufacturer_Part_Number" "XCL103D333CR-G")
+   (gate
+    (symbol "XCL103D333CR-G")
+    (pin "VBAT" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "CE" 3 PS)
+    (pin "GND_2" 4 PS)
+    (pin "LX" 5 PS)
+    (pin "VOUT" 6 PS)
+    (pin "L1" 7 PS)
+    (pin "L2" 8 PS)
+    (pin "EP_GND" 9 PS)
+   )
+  )
+  (symbol "XCL103D333CR-G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 500) (pt 700 500) (pt 700 -500) (pt 200 -500) (pt 200 500) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 300 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -700) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 300 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "XCL102D283CRG"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.25 1)
+      (pt 1.25 1)
+      (pt 1.25 -1)
+      (pt -1.25 -1)
+      (pt -1.25 1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.45 2.125)
+      (pt 2.45 2.125)
+      (pt 2.45 -2.125)
+      (pt -2.45 -2.125)
+      (pt -2.45 2.125))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.55 -1.4)
+      (arc (pt -0.550 -1.400) (pt -0.600 -1.500) (pt -0.500 -1.400) (start 180.0) (sweep 90.0))
+      (pt -0.55 -1.5)
+      (arc (pt -0.550 -1.500) (pt -0.600 -1.500) (pt -0.500 -1.400) (start 180.0) (sweep -90.0))
+      (pt -0.55 -1.4))))
+   (leg 1 (pt -0.550 -0.938) (padstack 0))
+   (leg 2 (pt 0.000 -0.938) (padstack 0))
+   (leg 3 (pt 0.550 -0.938) (padstack 0))
+   (leg 4 (pt 0.550 0.938) (padstack 0))
+   (leg 5 (pt 0.000 0.938) (padstack 0))
+   (leg 6 (pt -0.550 0.938) (padstack 0))
+   (leg 7 (pt -1.250 0.000) (padstack 7))
+   (leg 8 (pt 1.250 0.000) (padstack 8))
+   (leg 9 (pt 0.000 0.000) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.350 0.375 0 0 90.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 2.100 0 0 90.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 2.100 0 0 90.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 1.100 1.500 0 0 0.000))
+   )
+   (model "XCL103D333CR-G.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

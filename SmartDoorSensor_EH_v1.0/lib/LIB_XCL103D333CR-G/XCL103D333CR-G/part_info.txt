@@ -1,0 +1,9 @@
+Manufacturer=Torex
+PartNumber=XCL103D333CR-G
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=9
+Version=2.1
+Released=2019-07-20 23:19:55
+Downloaded=2023-07-22 15:30:49
+3D=Y

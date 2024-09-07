@@ -1,0 +1,164 @@
+
+(EDIF
+  (rename &XCL103D333CR_G "XCL103D333CR_G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 07 22 15 30 49)
+      (dataOrigin "979287/365705/2.50/9/4/Integrated Circuit")
+      (program "SamacSys ECAD Model XCL103D333CR_G"
+        (version "2.1"))))
+  (library
+  (rename &XCL103D333CR_G "XCL103D333CR_G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &XCL103D333CR_G "XCL103D333CR_G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "XCL103D333CR_G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "XCL102D283CRG"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "865-XCL103D333CR-G"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XCL103D333CR-G?qs=gt1LBUVyoHmBKFSBp3Uk6w%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Torex"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "XCL103D333CR-G"))
+          (property (rename &Description "Description") (string "Switching Voltage Regulators Inductor Built-in Step-Up micro DC/DC Converter"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.torexsemi.com/file/xcl102/XCL102-103.pdf"))
+          (property (rename &Height "Height") (string "1.04 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "XCL103D333CR_G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &VBAT "VBAT")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &CE "CE")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &LX "LX")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &VOUT "VOUT")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &L1 "L1")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &L2 "L2")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &EP_GND "EP_GND")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &VBAT (display PINNAME))
+              (figure PIN (path (pointList (pt 100 -1200) (pt 100 -1000))))
+              (connectLocation (figure GRAPHIC (dot (pt 100 -1200))))
+            )
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (figure PIN (path (pointList (pt 200 -1200) (pt 200 -1000))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -1200))))
+            )
+            (portImplementation
+              (name &CE (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -1200) (pt 300 -1000))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -1200))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &LX (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (portImplementation
+              (name &VOUT (display PINNAME))
+              (figure PIN (path (pointList (pt 200 200) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 200))))
+            )
+            (portImplementation
+              (name &L1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &L2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 500 -500) (pt 700 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -500))))
+            )
+            (portImplementation
+              (name &EP_GND (display PINNAME))
+              (figure PIN (path (pointList (pt 100 200) (pt 100 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 100 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 500 0)
+                  (pt 500 -1000)
+                  (pt 0 -1000)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 30))))
+          )
+        )
+      )
+    )
+  )
+)

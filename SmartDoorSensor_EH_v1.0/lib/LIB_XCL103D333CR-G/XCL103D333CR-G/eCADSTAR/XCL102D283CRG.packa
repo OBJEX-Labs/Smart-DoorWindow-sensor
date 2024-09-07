@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XCL103D333CR-G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-31-10:51:32)
+    (mountForm default
+        (footprintRef "XCL102D283CRG")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.XCL103D333CR-G :1 ;Switching Voltage Regulators Inductor Built-in Step-Up micro DC/DC Converter
+XCL102D283CRG
+*STM IC
+*NGS
+*PLB 1="VBAT" 2="GND_1" 3="CE" 4="GND_2" 5="LX" 6="VOUT" 7="L1" 8="L2" 9="EP_GND"
+*MXP 9
+*DFN XCL103D333CR-G
+~!Mouser Part Number (865-XCL103D333CR-G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XCL103D333CR-G?qs=gt1LBUVyoHmBKFSBp3Uk6w%3D%3D)
+~!Manufacturer_Name (Torex)
+~!Manufacturer_Part_Number (XCL103D333CR-G)
+~!Link Datasheet (https://www.torexsemi.com/file/xcl102/XCL102-103.pdf)
+~!Height (1.04mm)
+~!3D_Model (XCL103D333CR-G)
+XCL103D333CR-G
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

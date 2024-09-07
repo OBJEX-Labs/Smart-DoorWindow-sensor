@@ -1,0 +1,1990 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9e8a3750-b87d-44b0-9fa9-a09ecf880f78")
+	(paper "A4")
+	(title_block
+		(title "Smart Door/Window Sensor - EH version")
+		(date "2023-07-20")
+		(rev "1.3")
+		(comment 2 "Salvatore Raccardi")
+		(comment 3 "Salvatore Raccardi")
+	)
+	(lib_symbols
+		(symbol "436331045822:436331045822"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "436331045822"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "436331045822"
+				(at 26.67 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://katalog.we-online.de/em/datasheet/4363x10458xx.pdf"
+				(at 26.67 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.65"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-436331045822"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/436331045822?qs=wr8lucFkNMXz9UbduBxtIQ%3D%3D"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "436331045822"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "436331045822_0_0"
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "436331045822_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MDSM-4R-12-18:MDSM-4R-12-18"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S1"
+				(at 16.51 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MDSM-4R-12-18"
+				(at 16.51 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "MDSM4R1218"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/DataSheets/HamlinPDFs/MDSM-4R.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LITTELFUSE - MDSM-4R-12-18 - REED SW, SPST-NO, 0.5A, 200VDC, SMD"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.84"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "934-MDSM-4R12-18"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/MDSM-4R-12-18?qs=nyo4TFax6NeuFOer0%2FvGlw%3D%3D"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MDSM-4R-12-18"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "MDSM-4R-12-18_0_0"
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MDSM-4R-12-18_0_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 1.27 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -1.778) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 78.232 70.358)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2938ddc-da2b-4f74-a313-e7d0385d9bfd")
+	)
+	(no_connect
+		(at 197.866 116.84)
+		(uuid "2f945177-d7b9-438b-9273-ababbfd50645")
+	)
+	(no_connect
+		(at 167.386 114.3)
+		(uuid "9f2c4e89-c05e-4da7-902a-baeaff553b39")
+	)
+	(wire
+		(pts
+			(xy 165.354 116.84) (xy 165.354 120.9802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fbe9e3-33d1-45c1-bedb-f59341ab0947")
+	)
+	(wire
+		(pts
+			(xy 71.374 125.222) (xy 73.406 125.222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b829bce-6d37-4468-87c8-4687ab3c44be")
+	)
+	(wire
+		(pts
+			(xy 71.374 122.682) (xy 82.042 122.682)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ce95c3-256f-4033-8717-a544676f80b8")
+	)
+	(wire
+		(pts
+			(xy 78.232 70.358) (xy 82.042 70.358)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2810ab47-175f-49e5-8590-4931f537d2de")
+	)
+	(polyline
+		(pts
+			(xy 20.32 20.32) (xy 20.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf9a6e0-a19d-41bf-83a3-d79cf4cbc91e")
+	)
+	(wire
+		(pts
+			(xy 73.406 125.222) (xy 73.406 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7ba74b-d5b4-476f-bec5-71a2d212e9ca")
+	)
+	(wire
+		(pts
+			(xy 224.028 98.298) (xy 224.028 99.568)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4c94a6-aea1-4bd8-a681-269e63a19f4e")
+	)
+	(wire
+		(pts
+			(xy 78.232 113.538) (xy 82.042 113.538)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb6f209-6a03-431a-91e3-c41937423093")
+	)
+	(wire
+		(pts
+			(xy 71.374 72.898) (xy 73.406 72.898)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8c26cf-b8d5-409b-a84d-fcc55afe2998")
+	)
+	(wire
+		(pts
+			(xy 167.386 116.84) (xy 165.354 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa6513d-259f-43de-916b-9e6e58ac36da")
+	)
+	(wire
+		(pts
+			(xy 71.374 70.358) (xy 78.232 70.358)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ed0c10-e936-4984-8320-f01d5cab3aca")
+	)
+	(polyline
+		(pts
+			(xy 20.32 33.02) (xy 81.788 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820e150e-db4a-4a3f-8707-442f0e656e77")
+	)
+	(wire
+		(pts
+			(xy 209.296 90.932) (xy 213.614 90.932)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86529325-605e-4adf-bfcf-c008a0d37f28")
+	)
+	(wire
+		(pts
+			(xy 213.614 90.932) (xy 213.614 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98b806a-a8c3-4787-aada-e4b3540f64d7")
+	)
+	(wire
+		(pts
+			(xy 78.232 70.358) (xy 78.232 113.538)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7da5c58-7f84-4759-897e-d917750dabea")
+	)
+	(wire
+		(pts
+			(xy 224.028 70.358) (xy 224.028 75.438)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87da0b0-9478-49df-acc7-cecebbbbf29a")
+	)
+	(wire
+		(pts
+			(xy 209.296 70.358) (xy 224.028 70.358)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10a6ae1-1a7a-40f7-b71a-57590ffa1a93")
+	)
+	(wire
+		(pts
+			(xy 73.406 72.898) (xy 73.406 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d6a0ce-2953-4155-b233-8c9ef1c9bda8")
+	)
+	(wire
+		(pts
+			(xy 197.866 114.3) (xy 213.614 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19ddeb0-d20f-4eb3-962c-c664cf92e516")
+	)
+	(text "Copyright CERN 2020.\nThis source describes Open Hardware and is licensed under the CERN-OHLW v2\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\nSource location: https://www.ohwr.org/project/wr-switch-hw\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the White Rabbit switch or other product you make using\nthis documentation."
+		(exclude_from_sim no)
+		(at 175.768 196.596 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c7b3674-21df-4414-b4b9-cc327e559c7f")
+	)
+	(text "Smart Door/Window Sensor"
+		(exclude_from_sim no)
+		(at 21.844 25.4 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e1316d5-a48b-484a-acbc-c1575a27c07e")
+	)
+	(text "-VIN->"
+		(exclude_from_sim no)
+		(at 145.542 81.28 0)
+		(effects
+			(font
+				(size 2 2)
+				(italic yes)
+			)
+		)
+		(uuid "787c16f9-b485-42bb-a91d-fbee83fc497d")
+	)
+	(text "Energy harvesting version"
+		(exclude_from_sim no)
+		(at 21.844 30.988 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "95c99097-c4b3-471c-8c2d-c29249bacbbb")
+	)
+	(label "LSB"
+		(at 72.136 70.358 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ee154b9-18e3-4f1b-a293-8ed76b07cdbb")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.374 125.222 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2497e2cc-fb35-44f4-a34b-579989ed0639")
+		(property "Reference" "TP2"
+			(at 70.612 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 65.278 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 71.374 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.374 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.374 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed11b38a-67b7-4928-9649-b646f4aa9627")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.294 70.358 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2eb26b46-3e41-49ec-88ad-36ddb7c1927d")
+		(property "Reference" "J3"
+			(at 64.262 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LSB TERMINAL"
+			(at 64.262 73.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 66.294 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.294 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.294 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b145d5cb-1593-46a1-b45b-d3b911257cda")
+		)
+		(pin "2"
+			(uuid "1090f65e-fc8b-43d1-ba11-a2d246571540")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.406 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5059ade2-3c85-4d2b-95eb-8c970ec029c8")
+		(property "Reference" "#PWR026"
+			(at 73.406 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.406 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.406 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.406 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0da42144-fd47-4452-bb14-8dfb67f34d46")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.354 120.9802 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91fd84cf-e272-4dd6-9551-2069e3f00392")
+		(property "Reference" "#PWR059"
+			(at 165.354 127.3302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.481 125.3744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.354 120.9802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.354 120.9802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.354 120.9802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1af0ae73-402e-439b-a27f-26357756b024")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+			(project "OBJEX-DoorSensor_v1.2"
+				(path "/dfd7f005-123d-49c6-a596-950b92e8aba7"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.406 74.676 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99dc4d24-19ce-4e43-9c70-bce930f7f666")
+		(property "Reference" "#PWR014"
+			(at 73.406 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.406 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.406 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.406 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "219d3d13-ee2f-455c-b059-3c6caa9a4b44")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "436331045822:436331045822")
+		(at 167.386 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f12b54-5507-4d06-b83a-5893ad0e595d")
+		(property "Reference" "S2"
+			(at 182.626 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "436331045822"
+			(at 182.626 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:436331045822"
+			(at 194.056 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/4363x10458xx.pdf"
+			(at 194.056 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount"
+			(at 194.056 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.65"
+			(at 194.056 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-436331045822"
+			(at 194.056 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/436331045822?qs=wr8lucFkNMXz9UbduBxtIQ%3D%3D"
+			(at 194.056 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 194.056 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "436331045822"
+			(at 194.056 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69e03f73-75a7-482f-914d-df48d4e783f0")
+		)
+		(pin "2"
+			(uuid "7e24e766-df46-4b8f-9a37-60aec197fde7")
+		)
+		(pin "3"
+			(uuid "eacd996b-baa6-4d7c-b2b8-8f4357e5a163")
+		)
+		(pin "4"
+			(uuid "6a137b5c-d4b5-4cc1-9dc7-18e283837667")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 224.028 99.568 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb401ec-d858-4687-80ba-18fa3e38619b")
+		(property "Reference" "#PWR027"
+			(at 224.028 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.028 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.028 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.028 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.028 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a45f248c-b026-49f1-8012-2889a8ce4ab0")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+			(project "OBJEX-DoorSensor_v1.2"
+				(path "/dfd7f005-123d-49c6-a596-950b92e8aba7"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/dfd7f005-123d-49c6-a596-950b92e8aba7/92732d3f-bc3d-4824-8d12-1356e1adb506"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.374 122.682 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e34b0fce-a323-422d-aa1e-e335b6ded671")
+		(property "Reference" "TP1"
+			(at 70.612 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PV"
+			(at 65.786 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 71.374 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.374 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.374 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "251f331e-981a-4331-bdad-ea635b03a973")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MDSM-4R-12-18:MDSM-4R-12-18")
+		(at 224.028 85.598 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f62b4061-475b-4569-839f-2632d481fa66")
+		(property "Reference" "S1"
+			(at 228.473 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MDSM-4R-12-18"
+			(at 243.713 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lib:MDSM4R1218"
+			(at 207.518 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/DataSheets/HamlinPDFs/MDSM-4R.pdf"
+			(at 207.518 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LITTELFUSE - MDSM-4R-12-18 - REED SW, SPST-NO, 0.5A, 200VDC, SMD"
+			(at 207.518 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.84"
+			(at 207.518 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "934-MDSM-4R12-18"
+			(at 207.518 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/MDSM-4R-12-18?qs=nyo4TFax6NeuFOer0%2FvGlw%3D%3D"
+			(at 207.518 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 207.518 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MDSM-4R-12-18"
+			(at 207.518 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b59a49-6bf2-4247-83fa-14e6568221e1")
+		)
+		(pin "2"
+			(uuid "d32c1126-b506-4333-a940-4922158bdfdd")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+			(project "OBJEX-DoorSensor_v1.2"
+				(path "/dfd7f005-123d-49c6-a596-950b92e8aba7"
+					(reference "S1")
+					(unit 1)
+				)
+				(path "/dfd7f005-123d-49c6-a596-950b92e8aba7/92732d3f-bc3d-4824-8d12-1356e1adb506"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.042 106.68)
+		(size 54.61 32.258)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "417e35b1-b2e5-41aa-926a-d11db2a1b2ce")
+		(property "Sheetname" "Energy Harvester - AEM10941"
+			(at 82.042 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AEM10941.kicad_sch"
+			(at 82.042 139.5226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LSB" input
+			(at 82.042 113.538 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e4b8edd-efc3-4e0c-8324-b656f4290cfe")
+		)
+		(pin "PV" input
+			(at 82.042 122.682 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3649a0c-e821-49e4-822e-779c203938c6")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.042 65.024)
+		(size 54.61 32.258)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "669279e5-cd5d-4ecc-b6c4-4d0a38bc638c")
+		(property "Sheetname" "DCDC STEP UP"
+			(at 82.042 64.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcdc-stepup.kicad_sch"
+			(at 82.042 97.8666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LSB" input
+			(at 82.042 70.358 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a37c2695-5ce2-42b2-ba51-df4723634125")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.686 65.024)
+		(size 54.61 32.258)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c15f0427-c1c2-4c46-b699-ea16795e030b")
+		(property "Sheetname" "ELPM-S3LW"
+			(at 154.686 64.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ELPM-S3.kicad_sch"
+			(at 154.686 97.8666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "REED_Switch" input
+			(at 209.296 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acda6906-27ae-420e-ad37-60acd1e36bc2")
+		)
+		(pin "RESET" input
+			(at 209.296 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87015efc-d9fd-49b3-9b86-0b797519f7ba")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

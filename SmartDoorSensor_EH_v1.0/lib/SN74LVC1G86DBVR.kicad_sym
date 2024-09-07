@@ -1,0 +1,78 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SN74LVC1G86DBVR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SN74LVC1G86DBVR" (id 1) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SOT353" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SN74LVC1G86DBVR_1_0"
+      (polyline
+        (pts (xy 2.54 10.16) (xy 10.16 10.16)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 10.16 0.0)) (stroke (width 0.4064))
+      )
+      (arc (start 10.16 0.0) (mid 15.24 5.08) (end 10.16 10.16)
+        (stroke (width 0.4064) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.54 0.0) (mid 7.62 5.08) (end 2.54 10.16)
+        (stroke (width 0.4064) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0.0 0.0) (mid 5.08 5.08) (end 0.0 10.16)
+        (stroke (width 0.4064) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line (at -5.08 7.62 0) (length 5.08)
+        (name "A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -5.08 2.54 0) (length 5.08)
+        (name "B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 5.08 180.0) (length 5.08)
+        (name "Y"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "SN74LVC1G86DBVR_2_0"
+      (pin passive line (at 0.0 5.08 270.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "SN74LVC1G86DBVR_3_0"
+      (pin passive line (at 0.0 5.08 270.0) (length 5.08)
+        (name "VEE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

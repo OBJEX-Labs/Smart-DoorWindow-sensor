@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XCL103D333CR-G
+D Switching Voltage Regulators Inductor Built-in Step-Up micro DC/DC Converter
+K
+F https://www.torexsemi.com/file/xcl102/XCL102-103.pdf
+$ENDCMP
+#
+#End Doc Library

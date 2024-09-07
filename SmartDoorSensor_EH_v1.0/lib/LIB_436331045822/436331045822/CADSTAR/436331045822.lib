@@ -1,0 +1,15 @@
+.436331045822 :1 ;Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount
+"436331045822"
+*STM S
+*NGS
+*PLB 1="COM_1" 2="NO_1" 3="COM_2" 4="NO_2"
+*MXP 6
+*DFN 436331045822
+~!Mouser Part Number (710-436331045822)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/436331045822?qs=wr8lucFkNMXz9UbduBxtIQ%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (436331045822)
+~!Link Datasheet (http://katalog.we-online.de/em/datasheet/4363x10458xx.pdf)
+~!Height (1.65mm)
+"436331045822"
+1.1!U 2.1!U 3.1!U 4.1!U 

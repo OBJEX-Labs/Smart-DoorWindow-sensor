@@ -1,0 +1,48 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "+2V4" (power) (in_bom no) (on_board no)
+    (property "Reference" "#PWR" (at 0 -5.588 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V4" (at -0.254 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+2V4_0_1"
+      (polyline
+        (pts
+          (xy -0.762 -2.286)
+          (xy 0 -1.016)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -3.556)
+          (xy 0 -1.016)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -1.016)
+          (xy 0.762 -2.286)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "+2V4_1_1"
+      (pin power_in line (at 0 -3.556 90) (length 0) hide
+        (name "+2V5" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

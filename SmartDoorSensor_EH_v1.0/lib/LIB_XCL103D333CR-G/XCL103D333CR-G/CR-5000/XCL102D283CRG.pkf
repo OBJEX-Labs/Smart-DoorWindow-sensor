@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XCL102D283CRG"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XCL102D283CRG")
+        (spec "default")
+    )
+)

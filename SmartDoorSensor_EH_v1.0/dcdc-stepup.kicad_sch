@@ -1,0 +1,1641 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2c7378f9-c96b-419a-8ac1-de5fca47837f")
+	(paper "A4")
+	(title_block
+		(title "Smart Door/Window Sensor - EH version")
+		(date "2023-07-20")
+		(rev "1.3")
+		(comment 1 "objexlabs.com")
+		(comment 2 "Salvatore Raccardi")
+		(comment 3 "Salvatore Raccardi")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "XCL103D333CR-G:XCL103D333CR-G"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 19.05 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "XCL103D333CR-G"
+				(at 19.05 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "XCL102D283CRG"
+				(at 19.05 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.torexsemi.com/file/xcl102/XCL102-103.pdf"
+				(at 19.05 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Voltage Regulators Inductor Built-in Step-Up micro DC/DC Converter"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.04"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "865-XCL103D333CR-G"
+				(at 19.05 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XCL103D333CR-G?qs=gt1LBUVyoHmBKFSBp3Uk6w%3D%3D"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Torex"
+				(at 19.05 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XCL103D333CR-G"
+				(at 19.05 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "XCL103D333CR-G_0_0"
+				(pin passive line
+					(at 7.62 -17.78 90)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -17.78 90)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 90)
+					(length 5.08)
+					(name "CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 17.78 270)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 17.78 270)
+					(length 5.08)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 17.78 270)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 17.78 270)
+					(length 5.08)
+					(name "EP_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XCL103D333CR-G_0_1"
+				(polyline
+					(pts
+						(xy 5.08 12.7) (xy 17.78 12.7) (xy 17.78 -12.7) (xy 5.08 -12.7) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 114.046 88.646)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "825444d3-96c6-4d8a-946d-bb35c45d3e86")
+	)
+	(junction
+		(at 174.498 91.186)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7309cbc-a986-469a-b163-8c0ac73a7824")
+	)
+	(junction
+		(at 124.46 88.646)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cceae82d-d5e2-4724-8797-8f14e9311312")
+	)
+	(wire
+		(pts
+			(xy 122.174 91.186) (xy 126.238 91.186)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047ef8f5-2cdb-486e-a0c2-ce6a93d476b4")
+	)
+	(wire
+		(pts
+			(xy 144.018 104.648) (xy 162.56 104.648)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bf9bb3-0705-4744-9d0f-5c148c223adc")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.726) (xy 124.46 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dee4da-01d8-4c6e-807f-1ad40c58620a")
+	)
+	(wire
+		(pts
+			(xy 144.018 81.026) (xy 144.018 80.264)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abc118b-c71b-46e3-a00a-3c194eefc33f")
+	)
+	(wire
+		(pts
+			(xy 174.498 91.186) (xy 174.498 93.472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d563725-cb20-4b1e-b56b-19d0a605a655")
+	)
+	(polyline
+		(pts
+			(xy 20.828 21.59) (xy 20.828 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db739c9-8a2e-4797-97a6-b5e13a662489")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.344) (xy 162.56 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea18853-4e92-43b0-aa5f-30f79e03d630")
+	)
+	(wire
+		(pts
+			(xy 114.046 88.646) (xy 124.46 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eae59a4-388f-4337-8036-29814c30f1ec")
+	)
+	(wire
+		(pts
+			(xy 111.506 88.646) (xy 114.046 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48894cd0-45c5-4e61-9371-db115436795a")
+	)
+	(wire
+		(pts
+			(xy 114.046 98.552) (xy 114.046 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f576ec9-7c6f-47b2-962c-f6829c10671e")
+	)
+	(wire
+		(pts
+			(xy 162.56 104.648) (xy 162.56 93.726)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f992542-8575-495a-aedc-905b24e83eb8")
+	)
+	(wire
+		(pts
+			(xy 161.798 93.726) (xy 162.56 93.726)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c26659f-3c0b-47c0-aa1b-30f4e75a0d32")
+	)
+	(polyline
+		(pts
+			(xy 20.828 34.29) (xy 82.296 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3e5a3b-e274-4ecd-99ad-69f58195b640")
+	)
+	(wire
+		(pts
+			(xy 114.046 88.646) (xy 114.046 90.932)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a065d76-e50a-4937-b1e0-ad6afaeb902c")
+	)
+	(wire
+		(pts
+			(xy 144.018 104.648) (xy 144.018 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6a72c3-01a0-411d-beea-f7c82d269a29")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.646) (xy 126.238 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b970a6-44d6-4f25-8de9-f40b85787a51")
+	)
+	(wire
+		(pts
+			(xy 161.798 91.186) (xy 174.498 91.186)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d23ec3-56e6-4825-86e8-ed1422138a8c")
+	)
+	(wire
+		(pts
+			(xy 126.238 93.726) (xy 124.46 93.726)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3260dfc-b645-4ddc-8924-d0e281484c99")
+	)
+	(wire
+		(pts
+			(xy 122.174 91.186) (xy 122.174 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9575451-464d-43cc-b193-ffb046cff7a6")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.264) (xy 124.46 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac372ec3-2562-4f74-80eb-46ec7df8f46b")
+	)
+	(wire
+		(pts
+			(xy 161.798 88.646) (xy 162.56 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceba019d-13b5-4afe-84f3-115ae0f57d36")
+	)
+	(wire
+		(pts
+			(xy 174.498 91.186) (xy 181.356 91.186)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db37315f-44b9-4af1-833e-efba6e52d9b6")
+	)
+	(wire
+		(pts
+			(xy 144.018 80.264) (xy 124.46 80.264)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19aeb30-fa9d-4001-86b7-925d60acc5dd")
+	)
+	(wire
+		(pts
+			(xy 161.798 96.266) (xy 166.878 96.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9141c51-6812-4246-a211-7eb85ee38fec")
+	)
+	(wire
+		(pts
+			(xy 174.498 101.092) (xy 174.498 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaad726-1d2d-4c76-83bf-8bb1a7abce5d")
+	)
+	(wire
+		(pts
+			(xy 166.878 96.266) (xy 166.878 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3ac996-06fb-4061-a329-33e0ed90b913")
+	)
+	(text "XCL103D333CR-G"
+		(exclude_from_sim no)
+		(at 22.352 32.258 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c481c73-1b20-4f55-912f-37a01dc70442")
+	)
+	(text "DCDC Step up"
+		(exclude_from_sim no)
+		(at 22.352 26.67 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe5ce12c-b389-4046-8387-394f245028d5")
+	)
+	(hierarchical_label "LSB"
+		(shape input)
+		(at 111.506 88.646 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "34df2704-006e-416d-b164-73f219dc702f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.046 100.838 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dd0b6a3-51ad-4a22-8dd8-fb11b50f6197")
+		(property "Reference" "#PWR040"
+			(at 114.046 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.046 104.4702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.046 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.046 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.046 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a509c92b-db34-4639-81b8-a239c66db8e7")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 122.174 100.838 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20700176-0832-42ba-813d-2e72eb5f8792")
+		(property "Reference" "#PWR041"
+			(at 122.174 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 122.174 104.4702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.174 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.174 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122.174 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0084e9a5-1be3-4593-a71b-7a59a3ed8f3a")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 181.356 91.186 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40a9cd67-adcb-4db6-bf7e-b869f7a430f3")
+		(property "Reference" "#PWR060"
+			(at 177.546 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 184.023 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.356 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.356 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.356 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f577cdc-30f9-4430-a0dc-3d6efaaf51b5")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 174.498 102.616 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dc97cd3-9b5b-41d5-9a35-5e7c3acdcdf0")
+		(property "Reference" "#PWR044"
+			(at 174.498 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 174.498 106.2482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.498 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.498 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 174.498 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65d4f070-c9ed-4803-9c84-b39cb0873fd6")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 174.498 97.282 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a85e918-20dd-4d34-bb5c-7f8cc19d23a9")
+		(property "Reference" "C18"
+			(at 177.165 96.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 177.292 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 175.4632 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 174.498 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 174.498 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39fa2ef2-1b24-474b-a366-8591ff74f449")
+		)
+		(pin "2"
+			(uuid "c1425ae9-0bce-4c2d-84dd-d7c663eb01d2")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 85.344 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "976f056b-3505-4072-968d-93c0244b2894")
+		(property "Reference" "#PWR042"
+			(at 162.56 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 81.7118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81fba524-bfe3-4dc8-8721-1b47bedadd55")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.046 94.742 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5a37c2d-3ede-43b6-985e-443d152a0a73")
+		(property "Reference" "C17"
+			(at 116.713 93.853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 116.84 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.0112 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.046 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.046 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "364d8dde-fc09-4f90-bf09-f5c07e10415f")
+		)
+		(pin "2"
+			(uuid "5b81acfa-2588-467b-a9ff-a0b7f2da5a2b")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XCL103D333CR-G:XCL103D333CR-G")
+		(at 144.018 81.026 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b907ec-d2ff-48aa-ad48-7670ddd141da")
+		(property "Reference" "IC2"
+			(at 134.366 84.963 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XCL103D333CR-G"
+			(at 162.5092 100.1014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:XCL102D283CRG"
+			(at 156.718 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.torexsemi.com/file/xcl102/XCL102-103.pdf"
+			(at 154.178 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators Inductor Built-in Step-Up micro DC/DC Converter"
+			(at 151.638 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.04"
+			(at 149.098 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "865-XCL103D333CR-G"
+			(at 146.558 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XCL103D333CR-G?qs=gt1LBUVyoHmBKFSBp3Uk6w%3D%3D"
+			(at 144.018 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Torex"
+			(at 141.478 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XCL103D333CR-G"
+			(at 138.938 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3c60279-b130-47fb-9083-c71942bbbf47")
+		)
+		(pin "2"
+			(uuid "ab4f73e6-f6cc-42d3-b819-36d366eac5d6")
+		)
+		(pin "3"
+			(uuid "ae8d3a80-fae7-4a44-997b-a3e662c5949d")
+		)
+		(pin "4"
+			(uuid "36dd777b-2052-43b6-83a4-3733c712e50f")
+		)
+		(pin "5"
+			(uuid "90b733ec-fff7-4af4-823c-b9e381556559")
+		)
+		(pin "6"
+			(uuid "35ff0d07-3b62-4de0-9443-45abb5feb7b3")
+		)
+		(pin "7"
+			(uuid "5120cb48-5708-4515-a33d-3739427068d2")
+		)
+		(pin "8"
+			(uuid "3c956adf-3bbc-4be0-9e78-5772c9b95427")
+		)
+		(pin "9"
+			(uuid "cc5b6d59-2765-4039-917a-c58b727d5332")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.878 102.616 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d79d4b97-7221-4345-a6ac-1d6a45399141")
+		(property "Reference" "#PWR043"
+			(at 166.878 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.878 106.2482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.878 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.878 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.878 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab7ba754-545d-4401-9ea9-05ee273b4a5b")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/669279e5-cd5d-4ecc-b6c4-4d0a38bc638c"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

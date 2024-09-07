@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '436331045822'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "436331045822" (!) = "", "436331045822", "Other", "710-436331045822", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/436331045822?qs=wr8lucFkNMXz9UbduBxtIQ%3D%3D", "Black Tactile Switch, NO 50 mA@ 12 V dc 2.6mm Surface Mount", "http://katalog.we-online.de/em/datasheet/4363x10458xx.pdf", "1.65 mm"
+END_PART
+
+END.

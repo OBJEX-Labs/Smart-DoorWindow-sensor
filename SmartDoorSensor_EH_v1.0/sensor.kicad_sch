@@ -1,0 +1,3776 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d746d7d6-3825-4de4-ab88-bf162ed148c1")
+	(paper "A4")
+	(title_block
+		(title "Smart Door/Window Sensor - EH version")
+		(date "2023-07-20")
+		(rev "1.3")
+		(comment 2 "Salvatore Raccardi")
+		(comment 3 "Salvatore Raccardi")
+	)
+	(lib_symbols
+		(symbol "+3V3_2"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_2"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "+3V3_3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_4"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_4"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HS3001:HS3001"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HS3001"
+				(at -10.16 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HS3001:XDCR_HS3001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Renesas Electronics America Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/HS3001/Renesas/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "August 6, 2018 (Rev 01)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/HS3001/Renesas/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "HS3001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nFS2012, HS3001, ZWIR4512, 6LoWPAN - Flow, Humidity, Temperature Sensor Evaluation Board\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "IDT, Integrated Device Technology Inc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HS3001_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional clock
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ZMOD4410AI1R:ZMOD4410AI1R"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 31.75 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ZMOD4410AI1R"
+				(at 31.75 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ZMOD4410AI1R"
+				(at 31.75 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.idt.com/document/dst/zmod4410-datasheet"
+				(at 31.75 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "The ZMOD4410 gas sensor module is an easily integrated firmware configurable architecture enabling multiple sensing solutions with a common hardware platform. Simply download one of the firmware libraries that best supports your application from the Renesas website and integrate it with your host microcontroller. The JEDEC JESD47 qualified device supports 10+ years of life, supporting your indoor air quality (IAQ) application designed for detecting total volatile organic compounds (TVOCs), estimating CO2, a"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "964-ZMOD4410AI1R"
+				(at 31.75 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/ZMOD4410AI1R?qs=y6ZabgHbY%252BwCtZi1inoY6g%3D%3D"
+				(at 31.75 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Renesas Electronics"
+				(at 31.75 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ZMOD4410AI1R"
+				(at 31.75 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "ZMOD4410AI1R_0_0"
+				(pin passive line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "RES_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -20.32 90)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -20.32 90)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "N.C._1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 17.78 270)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 17.78 270)
+					(length 5.08)
+					(name "N.C._2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 17.78 270)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ZMOD4410AI1R_0_1"
+				(polyline
+					(pts
+						(xy 5.08 12.7) (xy 30.48 12.7) (xy 30.48 -15.24) (xy 5.08 -15.24) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 175.514 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d42a475-8b9a-40a3-b8bc-4381e6f680f7")
+	)
+	(junction
+		(at 98.044 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0df94aa9-41a0-40a9-8c20-9057e349550e")
+	)
+	(junction
+		(at 138.176 56.642)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a8fa008-4538-46f5-8301-b06146b38c27")
+	)
+	(junction
+		(at 109.982 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42d79e14-0291-429e-9d69-3a92b04d16bb")
+	)
+	(junction
+		(at 175.514 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97dd3d5f-8a53-49aa-ac43-e6a9454b0d44")
+	)
+	(junction
+		(at 164.592 121.158)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a9ebd4e-b8c7-4898-84cb-b7088d6be1ea")
+	)
+	(junction
+		(at 164.592 110.998)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d1cf0b-fb98-4712-80ce-0027a9fbddb7")
+	)
+	(junction
+		(at 204.978 75.692)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e76ff6d6-d5ce-406f-9025-3946db375b22")
+	)
+	(no_connect
+		(at 222.758 102.87)
+		(uuid "225a0158-7b5a-4764-8237-7f97629b0c3f")
+	)
+	(no_connect
+		(at 207.518 118.11)
+		(uuid "c078be83-4d34-4cc2-8926-22f164c6af67")
+	)
+	(no_connect
+		(at 204.978 80.01)
+		(uuid "dcbd20e0-a9fd-42f4-b10b-1d4224439308")
+	)
+	(wire
+		(pts
+			(xy 109.982 110.49) (xy 109.982 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10742782-716f-4d62-8c8e-3943f803c0bc")
+	)
+	(wire
+		(pts
+			(xy 57.15 107.95) (xy 47.244 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cd26ba-9300-481a-8713-35c89e94d5c7")
+	)
+	(wire
+		(pts
+			(xy 134.112 56.642) (xy 138.176 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14294f40-c961-48f6-9ac5-082b12cfbfe0")
+	)
+	(wire
+		(pts
+			(xy 202.438 80.01) (xy 202.438 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195b96e0-ea0b-4b54-bfb0-c024f0f712cd")
+	)
+	(wire
+		(pts
+			(xy 164.592 121.158) (xy 175.768 121.158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213ed70a-1293-40e1-9f9a-22f6e6be3fb6")
+	)
+	(wire
+		(pts
+			(xy 175.514 97.79) (xy 187.198 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf935d0-3f5b-4a1d-b264-c73fdb741c71")
+	)
+	(wire
+		(pts
+			(xy 57.15 105.41) (xy 47.244 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d35322d-8a3f-47c1-9ef3-c561b529d7ee")
+	)
+	(wire
+		(pts
+			(xy 98.044 100.33) (xy 98.044 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387c4a3c-f7c0-4f17-bf1e-28d520c56bd2")
+	)
+	(wire
+		(pts
+			(xy 164.592 112.268) (xy 164.592 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9800e7-511e-4aea-a59b-d42038c9cff4")
+	)
+	(wire
+		(pts
+			(xy 141.732 59.944) (xy 141.732 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de1640d-0de7-4e9b-862c-5f573a6230b3")
+	)
+	(wire
+		(pts
+			(xy 164.592 110.998) (xy 164.592 109.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a40fea6-4355-44e8-affa-6bedb39053cc")
+	)
+	(wire
+		(pts
+			(xy 164.592 119.888) (xy 164.592 121.158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1fdb6c-5ce0-4710-bd67-cb2b1ce4f077")
+	)
+	(wire
+		(pts
+			(xy 138.176 56.642) (xy 141.732 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dbef68-651f-4e16-b272-ede388cfab7f")
+	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 109.982 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dd4ce4-e1e9-4451-8161-7ed747537434")
+	)
+	(wire
+		(pts
+			(xy 207.518 75.692) (xy 207.518 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e5fa38-34a5-428c-84de-be981a8d1313")
+	)
+	(wire
+		(pts
+			(xy 175.514 102.87) (xy 187.198 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d25205b-ac51-400c-8251-348e346ff781")
+	)
+	(wire
+		(pts
+			(xy 138.176 56.642) (xy 138.176 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632b17a7-23a4-46a6-920c-14bf4597dbdc")
+	)
+	(wire
+		(pts
+			(xy 222.758 100.33) (xy 225.044 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d8eca8-5cb1-4e8c-a15a-90a907e3dada")
+	)
+	(wire
+		(pts
+			(xy 175.768 110.998) (xy 175.768 112.268)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1e9e62-502c-46c0-8083-36f3799db95e")
+	)
+	(wire
+		(pts
+			(xy 175.768 121.158) (xy 175.768 119.888)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff524cb-48c6-4a18-9ad4-71594011a38a")
+	)
+	(wire
+		(pts
+			(xy 141.732 67.564) (xy 141.732 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8186f86d-fe5f-465f-9829-5c632a1d62a0")
+	)
+	(wire
+		(pts
+			(xy 87.63 113.03) (xy 90.424 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82627fe0-c82a-48f7-921d-52705a06c80b")
+	)
+	(wire
+		(pts
+			(xy 164.592 121.158) (xy 164.592 122.428)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c799cf-4554-4280-8c86-2084d00cf9f3")
+	)
+	(wire
+		(pts
+			(xy 109.982 92.964) (xy 109.982 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86466114-4aac-4b09-9a7b-d62497747b46")
+	)
+	(wire
+		(pts
+			(xy 177.546 100.33) (xy 175.514 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5ed674-4f1f-424b-8109-d3444e9fd5e3")
+	)
+	(wire
+		(pts
+			(xy 98.044 110.49) (xy 98.044 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d844a1-a277-4b53-8330-7e91e95ae969")
+	)
+	(wire
+		(pts
+			(xy 134.112 59.944) (xy 134.112 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bc2fc2-a990-4f8e-a4a6-190981bdb260")
+	)
+	(wire
+		(pts
+			(xy 204.978 75.692) (xy 207.518 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62badce-dd85-4a76-9ab9-9b06d3292c34")
+	)
+	(wire
+		(pts
+			(xy 175.514 100.33) (xy 175.514 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c9909a-1b6e-4cab-b1f9-51950b715939")
+	)
+	(wire
+		(pts
+			(xy 222.758 97.79) (xy 225.044 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbeb9e6-7cf5-4ff8-ad6b-f23225550718")
+	)
+	(wire
+		(pts
+			(xy 202.438 75.692) (xy 204.978 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73e0e97-f250-49e0-aa69-ec57beb9cdcd")
+	)
+	(wire
+		(pts
+			(xy 164.592 110.998) (xy 175.768 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08078ea-027c-41c3-b539-c7a8230bdecb")
+	)
+	(wire
+		(pts
+			(xy 187.198 100.33) (xy 185.166 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3734412-45e6-433a-b85d-2663989a50c8")
+	)
+	(wire
+		(pts
+			(xy 98.044 92.964) (xy 98.044 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66476c4-c5b3-43a3-afa2-ced67460f709")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 98.044 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d79b33-aaa0-4161-af51-d5a5f3134f71")
+	)
+	(wire
+		(pts
+			(xy 204.978 118.11) (xy 204.978 128.016)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe0a59f-7ab8-4aed-8264-a33ff77cf809")
+	)
+	(wire
+		(pts
+			(xy 225.044 96.266) (xy 225.044 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca133d4-ad0a-459d-b91a-69e14e3fbca9")
+	)
+	(wire
+		(pts
+			(xy 90.424 113.03) (xy 90.424 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b6f78f-4c32-4661-a6fb-bdcf340dc89e")
+	)
+	(wire
+		(pts
+			(xy 175.514 100.33) (xy 175.514 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69f4c86-1900-49c6-a547-bf188eb9a5ad")
+	)
+	(wire
+		(pts
+			(xy 175.514 97.79) (xy 173.482 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f5a73c-cebf-4995-8b1f-f3d41ec67043")
+	)
+	(wire
+		(pts
+			(xy 109.982 97.79) (xy 109.982 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec27c0c5-c2c2-4779-a045-0690d888168a")
+	)
+	(wire
+		(pts
+			(xy 204.978 72.898) (xy 204.978 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab88144-8b23-49d9-9186-18f507bb4a35")
+	)
+	(wire
+		(pts
+			(xy 202.438 118.11) (xy 202.438 128.016)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb66f592-f373-41f5-ae27-7fd26ba6a1e3")
+	)
+	(wire
+		(pts
+			(xy 134.112 67.564) (xy 134.112 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcafc769-ab5b-4cd1-bc78-1daf14c3470c")
+	)
+	(text "I2C ADDR 0x32\n"
+		(exclude_from_sim no)
+		(at 193.04 134.112 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c3fd24d-308d-4439-83e1-861a23cbbc22")
+	)
+	(text "Renesas sensors"
+		(exclude_from_sim no)
+		(at 17.526 24.638 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef7c5c8a-230b-4915-bc4c-da99e859ce0b")
+	)
+	(label "SDA"
+		(at 204.978 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e1db6c6-eadd-4608-9652-bbc1c2ecd1c2")
+	)
+	(label "SCL"
+		(at 134.112 74.422 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3933001f-9792-4d9f-8de6-e2131a343be6")
+	)
+	(label "SCL"
+		(at 47.244 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3a70189-3b72-4fae-bf43-e5f3e010f903")
+	)
+	(label "SDA"
+		(at 141.732 74.422 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3604654-f436-4092-be28-f18c32d99a3d")
+	)
+	(label "SCL"
+		(at 202.438 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d60049c5-74f5-4021-80ef-abc00b9d37d1")
+	)
+	(label "SDA"
+		(at 47.244 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff7296a7-a08d-484d-ba5e-99636511af17")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 141.732 74.422 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87073ccd-6adc-4605-a6cf-8baff56464ac")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 134.112 74.422 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8332ee2-b11e-4f3a-894f-f0d298813eb0")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.424 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14ed2287-9c9d-4b7a-8ad2-461b18ddaca7")
+		(property "Reference" "#PWR057"
+			(at 90.424 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.424 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.424 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.424 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.424 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80331ebd-8bfe-4896-a36e-9ff86abb23a4")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.982 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17563e8f-9002-4d6c-ad11-f7ebd85a05af")
+		(property "Reference" "C13"
+			(at 113.03 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 113.03 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 110.9472 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.982 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.982 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc48d147-0896-4f8f-857c-94706502c698")
+		)
+		(pin "2"
+			(uuid "c94c6612-c85d-4c8a-aeee-8867a5279afa")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 225.044 96.266 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7cc7ac-2d35-4bbc-8870-0b6a51887cdb")
+		(property "Reference" "#PWR069"
+			(at 225.044 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 225.044 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.044 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.044 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 225.044 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcbec2a2-c483-4a6a-913f-c8ab2dfe2c44")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 98.044 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c8b59b6-9bcf-4e26-8f10-2d6e637bca41")
+		(property "Reference" "C12"
+			(at 101.092 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 101.092 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 99.0092 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.044 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 98.044 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6ba8993-bb0c-47df-a110-62e9afe00cd3")
+		)
+		(pin "2"
+			(uuid "fd5c6b62-46b3-44a0-9811-0353a2827313")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 204.978 72.898 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "389eb01d-1547-4a82-b13b-1772e68671ee")
+		(property "Reference" "#PWR068"
+			(at 204.978 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.978 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.978 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.978 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.978 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b862ca9-8584-4a35-a30b-746405d71eac")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 164.592 109.728 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f9a746-2a57-4890-b53e-8f3868072b94")
+		(property "Reference" "#PWR065"
+			(at 164.592 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 164.592 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.592 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.592 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 164.592 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e65e1171-0d09-49c3-8be4-942f7ca97801")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 138.176 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4661ffec-dd73-4c02-8ea2-b869fbf4c3cc")
+		(property "Reference" "#PWR064"
+			(at 138.176 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 138.176 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.176 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.176 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 138.176 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f32321eb-bd2a-4ef5-9383-0a5092b16658")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_3")
+		(lib_id "power:+3V3")
+		(at 173.482 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c41b185-e418-47f8-a05b-efa021221799")
+		(property "Reference" "#PWR067"
+			(at 177.292 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.688 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.482 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.482 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.482 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0a052a-2129-4aed-8f8a-4936618160b1")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 164.592 122.428 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "583d2c54-df0a-47f2-993a-b82b09b25629")
+		(property "Reference" "#PWR066"
+			(at 164.592 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 164.592 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.592 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.592 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 164.592 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "803c5c5e-9378-4be9-a626-1a6592e214ac")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 98.044 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59d62b5f-1a1d-4d8e-a572-07e3fb96367f")
+		(property "Reference" "#PWR061"
+			(at 98.044 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 98.044 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.044 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.044 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 98.044 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53707985-7f0d-454c-aaf2-f25b595ef5b8")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.356 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b622532-1add-4e2a-820b-05ad49a1fc56")
+		(property "Reference" "R12"
+			(at 185.42 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 181.356 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 181.356 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.356 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.356 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9527447e-c622-4c19-a971-cf1b17519ef1")
+		)
+		(pin "1"
+			(uuid "6d7b6bb6-9d52-49e2-b086-1be99c5545b1")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.768 116.078 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "665d995b-ec42-4748-b982-1c075546b01b")
+		(property "Reference" "C19"
+			(at 178.816 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 178.816 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 176.7332 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.768 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.768 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30084096-a646-4e2a-bae7-20513d2df519")
+		)
+		(pin "2"
+			(uuid "625fc387-5617-4f50-b95f-c456fa90228e")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 164.592 116.078 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e61f32-4d45-47d9-a8a3-42186299fe48")
+		(property "Reference" "C14"
+			(at 167.64 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 167.64 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.5572 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 164.592 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 164.592 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99cbbfe3-3a2e-4aad-9600-ac7c6615841f")
+		)
+		(pin "2"
+			(uuid "b4626a19-26bb-4113-ac00-2860b685bba7")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 141.732 63.754 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7b9f9c60-7073-45bf-a3be-e423b3983da5")
+		(property "Reference" "R11"
+			(at 143.764 62.4839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 143.764 65.0239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 139.954 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.732 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 141.732 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfeadbaa-1dc8-4be5-8532-54e33b79220b")
+		)
+		(pin "1"
+			(uuid "29346a85-e005-431a-9cc2-b30d44e260e8")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.982 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a3d1aa0-d0a7-40e0-af08-d25daec4122d")
+		(property "Reference" "#PWR063"
+			(at 109.982 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.982 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.982 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.982 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.982 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9208af7-95ab-48b8-8336-ba6bfcee6398")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HS3001:HS3001")
+		(at 72.39 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "941971ae-de45-4a0b-8c35-9dcc738b6ef2")
+		(property "Reference" "U1"
+			(at 72.39 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HS3001"
+			(at 72.39 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:XDCR_HS3001"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Renesas Electronics America Inc."
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9mm"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/HS3001/Renesas/view-part/?ref=eda"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "August 6, 2018 (Rev 01)"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HS3001/Renesas/view-part/?ref=snap"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "HS3001"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nFS2012, HS3001, ZWIR4512, 6LoWPAN - Flow, Humidity, Temperature Sensor Evaluation Board\n"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "IDT, Integrated Device Technology Inc"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cdda40f-d69f-442c-b816-3d85e89748ef")
+		)
+		(pin "2"
+			(uuid "20c8a177-0456-46cf-bd92-08412cd3a1a6")
+		)
+		(pin "3"
+			(uuid "acea64a5-d454-4d1d-9107-a5e44f43fe7d")
+		)
+		(pin "4"
+			(uuid "b771a100-2da3-4e51-ae91-4589bb31f4be")
+		)
+		(pin "6"
+			(uuid "6ad889ba-cf55-449c-bd60-7c9ffc5a5184")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 109.982 92.964 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "981bbaeb-5e10-45d0-8ed9-f5acf53adee4")
+		(property "Reference" "#PWR062"
+			(at 109.982 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.982 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.982 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.982 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 109.982 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2dc0d36-0c94-44ee-a059-0835053a1a48")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.112 63.754 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9fe1b416-39b1-488d-9a44-7acba53ec1a3")
+		(property "Reference" "R10"
+			(at 132.08 62.4839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 132.08 65.0239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.89 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.112 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.112 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f733a45f-7598-4fc0-99a9-2742de2509ca")
+		)
+		(pin "1"
+			(uuid "9a20254f-e752-4277-8e73-10a7eed76796")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZMOD4410AI1R:ZMOD4410AI1R")
+		(at 187.198 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c23ae006-df5e-4688-9e10-5be259fe9fec")
+		(property "Reference" "IC4"
+			(at 220.472 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZMOD4410AI1R"
+			(at 226.06 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:ZMOD4410AI1R"
+			(at 218.948 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.idt.com/document/dst/zmod4410-datasheet"
+			(at 218.948 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "The ZMOD4410 gas sensor module is an easily integrated firmware configurable architecture enabling multiple sensing solutions with a common hardware platform. Simply download one of the firmware libraries that best supports your application from the Renesas website and integrate it with your host microcontroller. The JEDEC JESD47 qualified device supports 10+ years of life, supporting your indoor air quality (IAQ) application designed for detecting total volatile organic compounds (TVOCs), estimating CO2, a"
+			(at 218.948 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at 218.948 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "964-ZMOD4410AI1R"
+			(at 218.948 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/ZMOD4410AI1R?qs=y6ZabgHbY%252BwCtZi1inoY6g%3D%3D"
+			(at 218.948 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Renesas Electronics"
+			(at 218.948 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ZMOD4410AI1R"
+			(at 218.948 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55ce3cee-05d2-45fe-816a-af61c5501c4e")
+		)
+		(pin "10"
+			(uuid "1ed77585-e1c4-4075-be8b-c7fdebf6a892")
+		)
+		(pin "11"
+			(uuid "1cb706db-8f16-487b-83b0-9e9079c39f11")
+		)
+		(pin "12"
+			(uuid "8d878986-af71-4ff3-a7a2-d20202b3adfd")
+		)
+		(pin "2"
+			(uuid "d3029336-4892-4ba9-b217-961757ed88c1")
+		)
+		(pin "3"
+			(uuid "5a03875a-d56b-4659-a1e1-fa7f6754d292")
+		)
+		(pin "4"
+			(uuid "f50796ab-6963-496c-8fc9-46235742d7dd")
+		)
+		(pin "5"
+			(uuid "3cc3ab70-2e76-4f50-b585-cd875e471ea4")
+		)
+		(pin "6"
+			(uuid "b1d020d3-6535-4893-a1ae-e6cbb11fa02b")
+		)
+		(pin "7"
+			(uuid "4d59ee36-673b-44c9-a4ba-e652d9a44ee3")
+		)
+		(pin "8"
+			(uuid "30d0c7d7-8a09-4d11-aa71-7b576fdf0864")
+		)
+		(pin "9"
+			(uuid "48d1c9b7-bfa3-4f1c-be59-9edde6751af7")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_3")
+		(lib_id "power:+3V3")
+		(at 225.044 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3200096-4268-41c0-b689-416e64209ba7")
+		(property "Reference" "#PWR070"
+			(at 221.234 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 227.838 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.044 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.044 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 225.044 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac057d5a-6cf6-4591-a373-663d1b3ff691")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 98.044 92.964 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2738fa2-f2bd-4289-86e4-74375ae1061a")
+		(property "Reference" "#PWR058"
+			(at 98.044 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 98.044 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.044 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.044 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 98.044 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "586bcc3e-a5c0-41fc-9a68-c0a72f8b6698")
+		)
+		(instances
+			(project "SmartDoorSensor_EH_v1.0"
+				(path "/9e8a3750-b87d-44b0-9fa9-a09ecf880f78/c15f0427-c1c2-4c46-b699-ea16795e030b/f51fcdde-c604-47e9-ac78-4e3e0eb91c80"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

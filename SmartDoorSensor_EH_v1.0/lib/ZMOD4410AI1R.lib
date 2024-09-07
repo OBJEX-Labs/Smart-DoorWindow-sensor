@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ZMOD4410AI1R
+#/1558585/365705/2.50/12/2/Integrated Circuit
+DEF ZMOD4410AI1R IC 0 30 Y Y 1 F N
+F0 "IC" 1250 700 50 H V L CNN
+F1 "ZMOD4410AI1R" 1250 600 50 H V L CNN
+F2 "ZMOD4410AI1R" 1250 500 50 H I L CNN
+F3 "https://www.idt.com/document/dst/zmod4410-datasheet" 1250 400 50 H I L CNN
+F4 "The ZMOD4410 gas sensor module is an easily integrated firmware configurable architecture enabling multiple sensing solutions with a common hardware platform. Simply download one of the firmware libraries that best supports your application from the Renesas website and integrate it with your host microcontroller. The JEDEC JESD47 qualified device supports 10+ years of life, supporting your indoor air quality (IAQ) application designed for detecting total volatile organic compounds (TVOCs), estimating CO2, a" 1250 300 50 H I L CNN "Description"
+F5 "0.77" 1250 200 50 H I L CNN "Height"
+F6 "964-ZMOD4410AI1R" 1250 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/ZMOD4410AI1R?qs=y6ZabgHbY%252BwCtZi1inoY6g%3D%3D" 1250 0 50 H I L CNN "Mouser Price/Stock"
+F8 "Renesas Electronics" 1250 -100 50 H I L CNN "Manufacturer_Name"
+F9 "ZMOD4410AI1R" 1250 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SCL 1 600 -800 200 U 50 50 0 0 P
+X SDA 2 700 -800 200 U 50 50 0 0 P
+X INT 3 800 -800 200 U 50 50 0 0 P
+X N.C._1 4 1400 -200 200 L 50 50 0 0 P
+X VDD 5 1400 -100 200 L 50 50 0 0 P
+X VSS_1 6 1400 0 200 L 50 50 0 0 P
+X VSS_2 7 800 700 200 D 50 50 0 0 P
+X N.C._2 8 700 700 200 D 50 50 0 0 P
+X VSS_3 9 600 700 200 D 50 50 0 0 P
+X VDDH 10 0 0 200 R 50 50 0 0 P
+X RES_N 11 0 -100 200 R 50 50 0 0 P
+X VDDIO 12 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 500 1200 500 1200 -600 200 -600 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library
