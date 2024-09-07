@@ -11,17 +11,17 @@ The current was measured with Nordic's power profiler kit , knowing that the cur
 ### 1. Reed switch version
 The consumption in deep sleep(POWER LATCH) is the same whether the magnet near the sensor or not.
 
-![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/Simulations%20%26%20Tests/deepsleep.png)
+![image](https://github.com/OBJEX-Labs/Smart-DoorWindow-sensor/blob/main/ESP32-C3%20Version/Simulations%20%26%20Tests/deepsleep.png)
 
 ### 2. MAGNETIC SENSOR IC(S-5701) version
 deepsleep: 300nA
 
 ## 3D Case
 
-![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/TOP.JPG)
+![image](https://github.com/OBJEX-Labs/Smart-DoorWindow-sensor/blob/main/ESP32-C3%20Version/3D/TOP.JPG)
 
-![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/Inside.JPG)
+![image](https://github.com/OBJEX-Labs/Smart-DoorWindow-sensor/blob/main/ESP32-C3%20Version/3D/BatterySocket.JPG)
 
-![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/BatterySocket.JPG)
+![image](https://github.com/OBJEX-Labs/Smart-DoorWindow-sensor/blob/main/ESP32-C3%20Version/3D/BatterySocket.JPG)
 
-![image](https://github.com/salvatoreraccardi/Smart-DoorWindow-sensor/blob/main/3D/Magnet.JPG)
+![image](https://github.com/OBJEX-Labs/Smart-DoorWindow-sensor/blob/main/ESP32-C3%20Version/3D/Magnet.JPG)
